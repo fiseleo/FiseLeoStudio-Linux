@@ -85,7 +85,7 @@ namespace AssetStudio.GUI
         {
             Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US");
             InitializeComponent();
-            Text = $"YarikStudio v{Application.ProductVersion}";
+            Text = $"FiseLeoStudio v{Application.ProductVersion}";
             InitializeExportOptions();
             InitializeProgressBar();
             InitializeLogger();
@@ -308,7 +308,7 @@ namespace AssetStudio.GUI
                 }
             }
 
-            Text = $"YarikStudio v{Application.ProductVersion} - {productName} - {assetsManager.assetsFileList[0].unityVersion} - {assetsManager.assetsFileList[0].m_TargetPlatform}";
+            Text = $"FiseLeoStudio v{Application.ProductVersion} - {productName} - {assetsManager.assetsFileList[0].unityVersion} - {assetsManager.assetsFileList[0].m_TargetPlatform}";
 
             assetListView.VirtualListSize = visibleAssets.Count;
 
@@ -1459,7 +1459,7 @@ namespace AssetStudio.GUI
         {
             if (InvokeRequired)
             {
-                
+
                 var result = BeginInvoke(new Action(() => { progressBar1.Value = value; }));
                 result.AsyncWaitHandle.WaitOne();
             }
@@ -1484,7 +1484,7 @@ namespace AssetStudio.GUI
 
         public void ResetForm()
         {
-            Text = $"YarikStudio v{Application.ProductVersion}";
+            Text = $"FiseLeoStudio v{Application.ProductVersion}";
             assetsManager.Clear();
             assemblyLoader.Clear();
             exportableAssets.Clear();
@@ -2955,5 +2955,7 @@ namespace AssetStudio.GUI
             }
         }
         #endregion
+
+        
     }
 }
