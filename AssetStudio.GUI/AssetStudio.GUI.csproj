@@ -1,9 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<OutputType>Exe</OutputType>
-		<TargetFrameworks>net8.0</TargetFrameworks>
-		<UseWindowsForms>false</UseWindowsForms>
+		<OutputType>WinExe</OutputType>
+		<TargetFrameworks>net8.0-Windows</TargetFrameworks>
+		<UseWindowsForms>True</UseWindowsForms>
 		<ApplicationIcon>Resources\as.ico</ApplicationIcon>
 		<Version>0.0.1</Version>
 		<AssemblyVersion>0.0.1</AssemblyVersion>
@@ -109,7 +109,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Avalonia" Version="11.3.0" />
 		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
 		<PackageReference Include="OpenTK" Version="4.8.0" />
 		<Reference Include="OpenTK.WinForms">
