@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- Generated with glade 3.40.0 -->
 <interface>
   <requires lib="gtk+" version="3.20"/>
@@ -136,6 +136,18 @@
                         <property name="visible">True</property>
                         <property name="can-focus">False</property>
                         <property name="label" translatable="yes">Specify Unity Version</property>
+                        <child type="submenu">
+                          <object class="GtkMenu" id="SpecifyUnityVersionMenu">
+                            <property name="visible">True</property>
+                            <property name="can-focus">False</property>
+                            <child>
+                              <object class="GtkMenuItem" id="SpecifyUnityVersionComboBox">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                              </object>
+                            </child>
+                          </object>
+                        </child>
                       </object>
                     </child>
                     <child>
@@ -150,6 +162,278 @@
                         <property name="visible">True</property>
                         <property name="can-focus">False</property>
                         <property name="label" translatable="yes">Specify Game</property>
+                        <child type="submenu">
+                          <object class="GtkMenu" id="SpecifyGameMenu1">
+                            <property name="visible">True</property>
+                            <property name="can-focus">False</property>
+                            <child>
+                              <object class="GtkMenuItem" id="Normal">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">Normal</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="UnityCN">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">UnityCN</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="GI">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">GI</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="GI_Pack">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">GI_Pack</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="GI_CB1">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">GI_CB1</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="GI_CB2">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">GI_CB2</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="GI_CB3">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">GI_CB3</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="GI_CB3Pre">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">GI_CB3Pre</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="BH3">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">BH3</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="BH3Pre">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">BH3Pre</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="BH3PrePre">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">BH3PrePre</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="SR_CB2">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">SR_CB2</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="SR">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">SR</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="ZZZ_CB1">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">ZZZ_CB1</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="TOT">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">TOT</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Naraka">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">Naraka</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="EnsembleStars">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">EnsembleStars</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="OPPF">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">OPPF</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="FakeHeader">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">FakeHeader</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="ShiningNikki">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">ShiningNikki</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="HelixWaltz2">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">HelixWaltz2</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="NetEase">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">NetEase</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="AnchorPanic">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">AnchorPanic</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="DreamscapeAlbireo">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">DreamscapeAlbireo</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="ImaginaryFest">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">ImaginaryFest</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="AliceGearAegis">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">AliceGearAegis</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="ProjectSekai">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">ProjectSekai</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="CodenameJump">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">CodenameJump</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="GirlsFrontline">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">GirlsFrontline</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Reverse1999">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">Reverse1999</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="ArknightsEndfield">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">ArknightsEndfield</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="JJKPhantomParad">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">JJKPhantomParad</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="MuvLuvDimensions">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">MuvLuvDimensions</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="PartyAnimals">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">PartyAnimals</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="LoveAndDeepspace">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">LoveAndDeepspace</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="SchoolGirlStrikers">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">SchoolGirlStrikers</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="ExAstris">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">ExAstris</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="PerpetualNovelty">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">PerpetualNovelty</property>
+                              </object>
+                            </child>
+                          </object>
+                        </child>
                       </object>
                     </child>
                     <child>
@@ -157,6 +441,551 @@
                         <property name="visible">True</property>
                         <property name="can-focus">False</property>
                         <property name="label" translatable="yes">Specify AI version</property>
+                        <child type="submenu">
+                          <object class="GtkMenu" id="SpecifyAIVersionMenu">
+                            <property name="visible">True</property>
+                            <property name="can-focus">False</property>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_None">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">None</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_0_7_0_cb2">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">0.7.0-cb2</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_0_7_1_cb2">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">0.7.1-cb2</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_0_9_0_cb3">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">0.9.0-cb3</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_1_1_55_beta">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">1.1.55-beta</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_1_2_0">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">1.2.0</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_1_2_dev">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">1.2-dev</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_1_2_53">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">1.2.53</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_1_3_0">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">1.3.0</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_1_3_2">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">1.3.2</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_1_3_52_beta">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">1.3.52-beta</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_1_3_53_beta">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">1.3.53-beta</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_1_4_0">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">1.4.0</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_1_4_50_beta">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">1.4.50-beta</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_1_4_51_beta_dev">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">1.4.51-beta-dev</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_1_4_53_beta">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">1.4.53-beta</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_1_4_54_beta">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">1.4.54-beta</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_1_4_55_beta">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">1.4.55-beta</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_1_5_0">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">1.5.0</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_1_5_52_beta">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">1.5.52-beta</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_1_5_53_beta">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">1.5.53-beta</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_1_5_54_beta">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">1.5.54-beta</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_1_5_1">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">1.5.1</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_1_6_0">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">1.6.0</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_1_6_1">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">1.6.1</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_1_6_51_beta">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">1.6.51-beta</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_2_0_0">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">2.0.0</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_2_0_51_beta">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">2.0.51-beta</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_2_0_52_beta">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">2.0.52-beta</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_2_1_0">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">2.1.0</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_2_1_0_beta">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">2.1.0-beta</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_2_1_51_beta">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">2.1.51-beta</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_2_2_0">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">2.2.0</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_2_2_0_beta">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">2.2.0-beta</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_2_2_1_beta">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">2.2.1-beta</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_2_2_3_beta">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">2.2.3-beta</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_2_2_4_beta">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">2.2.4-beta</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_2_3_0">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">2.3.0</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_2_3_50_beta">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">2.3.50-beta</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_2_4_0">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">2.4.0</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_2_4_50_beta">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">2.4.50-beta</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_2_4_51_beta">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">2.4.51-beta</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_2_5_0">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">2.5.0</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_2_5_50_beta">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">2.5.50-beta</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_2_5_51_beta">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">2.5.51-beta</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_2_5_52_beta">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">2.5.52-beta</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_2_5_53_beta">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">2.5.53-beta</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_2_5_54_beta">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">2.5.54-beta</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_2_6_0">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">2.6.0</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_2_6_50_beta">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">2.6.50-beta</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_2_6_51_beta">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">2.6.51-beta</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_2_6_52_beta">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">2.6.52-beta</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_2_6_53_beta">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">2.6.53-beta</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_2_6_54_beta">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">2.6.54-beta</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_2_7_0">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">2.7.0</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_2_7_50_beta">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">2.7.50-beta</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_2_7_52_beta">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">2.7.52-beta</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_2_7_53_beta">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">2.7.53-beta</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_2_7_54_beta">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">2.7.54-beta</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_2_8_0">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">2.8.0</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_2_8_50_beta">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">2.8.50-beta</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_2_8_51_beta">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">2.8.51-beta</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_2_8_52_beta">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">2.8.52-beta</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_2_8_53_beta">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">2.8.53-beta</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_3_0_0">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">3.0.0</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_3_0_50_beta">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">3.0.50-beta</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_3_0_51_beta">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">3.0.51-beta</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_3_0_52_beta">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">3.0.52-beta</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_3_0_53_beta">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">3.0.53-beta</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_3_1_0">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">3.1.0</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_3_1_50_beta">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">3.1.50-beta</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_3_2_0">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">3.2.0</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_3_2_50_beta">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">3.2.50-beta</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_3_3_0">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">3.3.0</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_3_3_50_beta">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">3.3.50-beta</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_3_4_0">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">3.4.0</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="Version_3_5_0">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">3.5.0</property>
+                              </object>
+                            </child>
+                          </object>
+                        </child>
                       </object>
                     </child>
                     <child>
@@ -274,6 +1103,33 @@
                         <property name="visible">True</property>
                         <property name="can-focus">False</property>
                         <property name="label" translatable="yes">RAW</property>
+                        <child type="submenu">
+                          <object class="GtkMenu" id="RAWMenu">
+                            <property name="visible">True</property>
+                            <property name="can-focus">False</property>
+                            <child>
+                              <object class="GtkMenuItem" id="AllAssetsRAW">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">All Assets</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="SelectedAssetsRAW">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">Selected Assets</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="FilteredRAW">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">Filtered Assets</property>
+                              </object>
+                            </child>
+                          </object>
+                        </child>
                       </object>
                     </child>
                     <child>
@@ -281,6 +1137,33 @@
                         <property name="visible">True</property>
                         <property name="can-focus">False</property>
                         <property name="label" translatable="yes">Dump</property>
+                        <child type="submenu">
+                          <object class="GtkMenu" id="DumpMenu">
+                            <property name="visible">True</property>
+                            <property name="can-focus">False</property>
+                            <child>
+                              <object class="GtkMenuItem" id="AllAssetsDump">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">All Assets</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="SelectedAssetsDump">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">Selected Assets</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="FilteredDump">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">Filtered Assets</property>
+                              </object>
+                            </child>
+                          </object>
+                        </child>
                       </object>
                     </child>
                     <child>
@@ -288,6 +1171,33 @@
                         <property name="visible">True</property>
                         <property name="can-focus">False</property>
                         <property name="label" translatable="yes">JSON</property>
+                        <child type="submenu">
+                          <object class="GtkMenu" id="JSONMenu">
+                            <property name="visible">True</property>
+                            <property name="can-focus">False</property>
+                            <child>
+                              <object class="GtkMenuItem" id="AllAssetsJSON">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">All Assets</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="SelectedAssetsJSON">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">Selected Assets</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkMenuItem" id="FilteredJSON">
+                                <property name="visible">True</property>
+                                <property name="can-focus">False</property>
+                                <property name="label" translatable="yes">Filtered Assets</property>
+                              </object>
+                            </child>
+                          </object>
+                        </child>
                       </object>
                     </child>
                     <child>

@@ -214,52 +214,52 @@ namespace AssetStudio.GUI
             // loadFileToolStripMenuItem
             // 
             loadFileToolStripMenuItem.Name = "loadFileToolStripMenuItem";
-            loadFileToolStripMenuItem.Size = new System.Drawing.Size(149, 22);
+            loadFileToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             loadFileToolStripMenuItem.Text = "Load file";
             loadFileToolStripMenuItem.Click += loadFile_Click;
             // 
             // loadFolderToolStripMenuItem
             // 
             loadFolderToolStripMenuItem.Name = "loadFolderToolStripMenuItem";
-            loadFolderToolStripMenuItem.Size = new System.Drawing.Size(149, 22);
+            loadFolderToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             loadFolderToolStripMenuItem.Text = "Load folder";
             loadFolderToolStripMenuItem.Click += loadFolder_Click;
             // 
             // toolStripMenuItem1
             // 
             toolStripMenuItem1.Name = "toolStripMenuItem1";
-            toolStripMenuItem1.Size = new System.Drawing.Size(146, 6);
+            toolStripMenuItem1.Size = new System.Drawing.Size(177, 6);
             // 
             // extractFileToolStripMenuItem
             // 
             extractFileToolStripMenuItem.Name = "extractFileToolStripMenuItem";
-            extractFileToolStripMenuItem.Size = new System.Drawing.Size(149, 22);
+            extractFileToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             extractFileToolStripMenuItem.Text = "Extract file";
             extractFileToolStripMenuItem.Click += extractFileToolStripMenuItem_Click;
             // 
             // extractFolderToolStripMenuItem
             // 
             extractFolderToolStripMenuItem.Name = "extractFolderToolStripMenuItem";
-            extractFolderToolStripMenuItem.Size = new System.Drawing.Size(149, 22);
+            extractFolderToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             extractFolderToolStripMenuItem.Text = "Extract folder";
             extractFolderToolStripMenuItem.Click += extractFolderToolStripMenuItem_Click;
             // 
             // toolStripSeparator6
             // 
             toolStripSeparator6.Name = "toolStripSeparator6";
-            toolStripSeparator6.Size = new System.Drawing.Size(146, 6);
+            toolStripSeparator6.Size = new System.Drawing.Size(177, 6);
             // 
             // resetToolStripMenuItem
             // 
             resetToolStripMenuItem.Name = "resetToolStripMenuItem";
-            resetToolStripMenuItem.Size = new System.Drawing.Size(149, 22);
+            resetToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             resetToolStripMenuItem.Text = "Reset";
             resetToolStripMenuItem.Click += resetToolStripMenuItem_Click;
             // 
             // abortStripMenuItem
             // 
             abortStripMenuItem.Name = "abortStripMenuItem";
-            abortStripMenuItem.Size = new System.Drawing.Size(149, 22);
+            abortStripMenuItem.Size = new System.Drawing.Size(180, 22);
             abortStripMenuItem.Text = "Abort";
             abortStripMenuItem.Click += abortStripMenuItem_Click;
             // 
